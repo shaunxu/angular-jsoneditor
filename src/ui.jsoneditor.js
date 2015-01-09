@@ -10,7 +10,6 @@ angular.module('ui.jsoneditor', [])
             restrict: 'A',
             scope: {
                 json: '=ngModel',
-                editor: '=editor',
                 options: '=options'
             },
             link: function (scope, elem) {
